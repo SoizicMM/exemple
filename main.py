@@ -5,6 +5,6 @@ app = Flask(__name__)
 # Page Accueil
 @app.route('/')
 def index():
-  return "test !"   
+  return "changement collaborateur !"   
 
 app.run(host='0.0.0.0', port=81)
